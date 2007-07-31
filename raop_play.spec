@@ -13,6 +13,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: fltk-devel
 BuildRequires: openssl-devel
 BuildRequires: libsamplerate-devel
+BuildRequires: id3tag-devel
 
 %description
 raop_play is a music file player for Apple Airport Express,
