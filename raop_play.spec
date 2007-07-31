@@ -12,6 +12,7 @@ URL: http://raop-play.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: fltk-devel
 BuildRequires: openssl-devel
+BuildRequires: libsamplerate-devel
 
 %description
 raop_play is a music file player for Apple Airport Express,
