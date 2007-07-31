@@ -5,6 +5,7 @@ Version: 0.5.1
 Release: %mkrel 1
 Source0: http://puzzle.dl.sourceforge.net/sourceforge/raop-play/raop_play-%{version}.tar.gz
 Source1: alsa_raoppcm-dkms.conf
+Patch0:	 alsa_raoppcm-new-kernels.patch
 License: GPL
 Group: System/Kernel and hardware
 URL: http://raop-play.sourceforge.net/
@@ -35,6 +36,7 @@ This package contains the kernel module.
 
 %prep
 %setup -q
+%patch0 -p1
 perl -p -e 's/\@VERSION@/%{version}/' < %{SOURCE1} > dkms.conf
 
 %build
