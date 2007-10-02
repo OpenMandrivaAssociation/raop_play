@@ -2,7 +2,7 @@
 Summary: A music file player for Apple Airport Express
 Name: raop_play
 Version: 0.5.1
-Release: %mkrel 1
+Release: %mkrel 2
 Source0: http://puzzle.dl.sourceforge.net/sourceforge/raop-play/raop_play-%{version}.tar.gz
 Source1: alsa_raoppcm-dkms.conf
 Patch0:	 alsa_raoppcm-new-kernels.patch
