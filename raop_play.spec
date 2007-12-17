@@ -9,7 +9,6 @@ Patch0:	 alsa_raoppcm-new-kernels.patch
 License: GPL
 Group: System/Kernel and hardware
 URL: http://raop-play.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: fltk-devel
 BuildRequires: openssl-devel
 BuildRequires: libsamplerate-devel
