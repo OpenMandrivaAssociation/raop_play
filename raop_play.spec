@@ -18,10 +18,12 @@ BuildRequires: id3tag-devel
 %description
 raop_play is a music file player for Apple Airport Express,
 the main functionalities are as follows:
-* Make AEX become your 2'nd sound card device. http://raop-play.sourceforge.net/alsa_raoppcm.html
+* Make AEX become your 2'nd sound card device.
+  http://raop-play.sourceforge.net/alsa_raoppcm.html
 * Discover Airport Express by Apple Rendezvous
 * Browse music files
- (Supported music file format: m4a(alac or aac), wav, mp3, ogg, flac, aac, pls, raw pcm)
+  (Supported music file format: m4a(alac or aac), wav, mp3, ogg, flac, aac,
+  pls, raw pcm)
 * Send selected files to the Airport Express
 * Play mp3 stream data (filename started with "http://")
 
